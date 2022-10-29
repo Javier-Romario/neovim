@@ -17,3 +17,4 @@ keymap.set("n", "<leader>gg", ":LazyGit<CR>")
 
 keymap.set("n", "<leader>q", ":q")
 
+keymap.set("n", "<leader>s", ":Rg<CR>")

@@ -39,8 +39,13 @@ return packer.startup(function(use)
     },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 
   use "tpope/vim-surround"
+  use "junegunn/fzf"
   use "junegunn/fzf.vim"
   use 'L3MON4D3/LuaSnip'
 
@@ -51,7 +56,8 @@ return packer.startup(function(use)
   use 'williamboman/mason.nvim'
   use "williamboman/mason-lspconfig"
   use 'kdheepak/lazygit.nvim'
-
+  use 'stevearc/aerial.nvim'
+  use 'akinsho/bufferline.nvim'
   -- use cmp-luasnip
   -- use emmet-vim
   -- use friendly-snippets

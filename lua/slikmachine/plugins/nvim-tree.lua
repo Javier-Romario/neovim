@@ -1,8 +1,17 @@
+local status, nvimtree = pcall(require, "nvim-tree")
+if not status then
+  return
+end
+
 local nvim_tree = require('nvim-tree')
 local gwidth = vim.api.nvim_list_uis()[1].width
 local gheight = vim.api.nvim_list_uis()[1].height
 local width = 60
 local height = 20
+
+-- recommended settings from nvim-tree documentation
+vim.g.loaded = 1
+vim.g.loaded_netrwPlugin = 1
 
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
