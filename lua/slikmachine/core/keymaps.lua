@@ -12,3 +12,8 @@ keymap.set({ "n" }, "<leader>w", ":w<CR>")
 
 -- nvim-tree
 keymap.set({ "n", "i" }, "<leader>e", ":NvimTreeToggle<CR>")
+
+keymap.set("n", "<leader>gg", ":LazyGit<CR>")
+
+keymap.set("n", "<leader>q", ":q")
+

@@ -50,6 +50,7 @@ return packer.startup(function(use)
   use 'hrsh7th/nvim-cmp'
   use 'williamboman/mason.nvim'
   use "williamboman/mason-lspconfig"
+  use 'kdheepak/lazygit.nvim'
 
   -- use cmp-luasnip
   -- use emmet-vim
