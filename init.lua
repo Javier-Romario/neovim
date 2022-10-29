@@ -1,0 +1,7 @@
+require("slikmachine.plugins-setup")
+require("slikmachine.core.options")
+require("slikmachine.core.keymaps")
+require("slikmachine.core.colorscheme")
+require("slikmachine.plugins.nvim-tree")
+require("slikmachine.plugins.lualine")
+require("slikmachine.plugins.material-nvim")
