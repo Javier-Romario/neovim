@@ -61,11 +61,10 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
   use "neovim/nvim-lspconfig"
   use "nvim-treesitter/nvim-treesitter"
+  use 'mattn/emmet-vim'
+
   -- use cmp-luasnip
-  -- use emmet-vim
   -- use friendly-snippets
-  -- use mason
-  -- use mason-lspconfig
   -- use nlsp-settings
   -- use null-ls
   -- use nvim-dap
