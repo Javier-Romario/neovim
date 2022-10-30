@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use 'stevearc/aerial.nvim'
   use 'akinsho/bufferline.nvim'
   use "folke/which-key.nvim"
+  use 'luukvbaal/stabilize.nvim'
   -- use cmp-luasnip
   -- use emmet-vim
   -- use friendly-snippets
