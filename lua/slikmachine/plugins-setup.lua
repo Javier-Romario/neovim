@@ -53,12 +53,14 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path"
   use 'marko-cerovac/material.nvim'
   use 'hrsh7th/nvim-cmp'
-  use 'williamboman/mason.nvim'
-  use "williamboman/mason-lspconfig"
   use 'kdheepak/lazygit.nvim'
   use 'stevearc/aerial.nvim'
   use 'akinsho/bufferline.nvim'
   use "folke/which-key.nvim"
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
+  use "neovim/nvim-lspconfig"
+  use "nvim-treesitter/nvim-treesitter"
   -- use cmp-luasnip
   -- use emmet-vim
   -- use friendly-snippets

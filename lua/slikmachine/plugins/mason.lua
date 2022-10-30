@@ -4,3 +4,5 @@ if not status then
 end
 
 require('mason').setup()
+require("mason-lspconfig").setup()
+
