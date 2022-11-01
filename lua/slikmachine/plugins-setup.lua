@@ -49,10 +49,10 @@ return packer.startup(function(use)
   use "junegunn/fzf.vim"
   use 'L3MON4D3/LuaSnip'
 
+  use 'hrsh7th/nvim-cmp'
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-path"
   use 'marko-cerovac/material.nvim'
-  use 'hrsh7th/nvim-cmp'
   use 'kdheepak/lazygit.nvim'
   use 'stevearc/aerial.nvim'
   use 'akinsho/bufferline.nvim'
@@ -62,6 +62,8 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig"
   use "nvim-treesitter/nvim-treesitter"
   use 'mattn/emmet-vim'
+  use "kevinhwang91/nvim-bqf"
+
 
   -- use cmp-luasnip
   -- use friendly-snippets
